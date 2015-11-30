@@ -38,8 +38,8 @@ type Provider interface {
 	// response as a data map.
 	Get(creds *Credentials, endpoint string) (objx.Map, error)
 
-	// Get makes an authenticated request and returns the data in the
-	// response as a data map.
+	// GetAnything makes an authenticated request and returns the data in the
+	// response as an interface.
 	GetAnything(creds *Credentials, endpoint string) (interface{}, error)
 
 	// GetClient gets an http.Client authenticated with the specified

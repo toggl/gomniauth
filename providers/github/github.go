@@ -88,7 +88,7 @@ func (provider *GithubProvider) Get(creds *common.Credentials, endpoint string) 
 }
 
 func (provider *GithubProvider) GetAnything(creds *common.Credentials, endpoint string) (interface{}, error) {
-	return oauth2.Get(provider, creds, endpoint)
+	return oauth2.GetAnything(provider, creds, endpoint)
 }
 
 // GetUser uses the specified common.Credentials to access the users profile
