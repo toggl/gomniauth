@@ -2,10 +2,10 @@ package main
 
 import (
 	"fmt"
-	"github.com/stretchr/gomniauth"
-	"github.com/stretchr/gomniauth/providers/facebook"
-	"github.com/stretchr/gomniauth/providers/github"
-	"github.com/stretchr/gomniauth/providers/google"
+	"github.com/toggl/gomniauth"
+	"github.com/toggl/gomniauth/providers/facebook"
+	"github.com/toggl/gomniauth/providers/github"
+	"github.com/toggl/gomniauth/providers/google"
 	"github.com/stretchr/objx"
 	"io"
 	"net/http"

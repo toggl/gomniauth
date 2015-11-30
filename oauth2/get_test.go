@@ -1,8 +1,8 @@
 package oauth2
 
 import (
-	"github.com/stretchr/gomniauth/common"
-	"github.com/stretchr/gomniauth/test"
+	"github.com/toggl/gomniauth/common"
+	"github.com/toggl/gomniauth/test"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 	"io/ioutil"

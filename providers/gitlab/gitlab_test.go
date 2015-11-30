@@ -6,9 +6,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/stretchr/gomniauth/common"
-	"github.com/stretchr/gomniauth/oauth2"
-	"github.com/stretchr/gomniauth/test"
+	"github.com/toggl/gomniauth/common"
+	"github.com/toggl/gomniauth/oauth2"
+	"github.com/toggl/gomniauth/test"
 	"github.com/stretchr/objx"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"

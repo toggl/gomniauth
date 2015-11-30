@@ -3,7 +3,7 @@ package oauth2
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/stretchr/gomniauth/common"
+	"github.com/toggl/gomniauth/common"
 	"github.com/stretchr/objx"
 	"io/ioutil"
 	"mime"

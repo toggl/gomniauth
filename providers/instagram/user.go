@@ -1,7 +1,7 @@
 package instagram
 
 import (
-	"github.com/stretchr/gomniauth/common"
+	"github.com/toggl/gomniauth/common"
 	"github.com/stretchr/objx"
 	"strconv"
 )

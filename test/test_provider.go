@@ -1,7 +1,7 @@
 package test
 
 import (
-	"github.com/stretchr/gomniauth/common"
+	"github.com/toggl/gomniauth/common"
 	"github.com/stretchr/objx"
 	"github.com/stretchr/testify/mock"
 	"net/http"

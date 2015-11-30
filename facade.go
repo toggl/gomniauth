@@ -2,7 +2,7 @@ package gomniauth
 
 import (
 	"fmt"
-	"github.com/stretchr/gomniauth/common"
+	"github.com/toggl/gomniauth/common"
 	"github.com/stretchr/objx"
 )
 

@@ -3,9 +3,9 @@ package gitlab
 import (
 	"net/http"
 
-	"github.com/stretchr/gomniauth"
-	"github.com/stretchr/gomniauth/common"
-	"github.com/stretchr/gomniauth/oauth2"
+	"github.com/toggl/gomniauth"
+	"github.com/toggl/gomniauth/common"
+	"github.com/toggl/gomniauth/oauth2"
 	"github.com/stretchr/objx"
 )
 

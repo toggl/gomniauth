@@ -1,7 +1,7 @@
 package gomniauth
 
 import (
-	"github.com/stretchr/gomniauth/test"
+	"github.com/toggl/gomniauth/test"
 	"github.com/stretchr/objx"
 	"github.com/stretchr/testify/assert"
 	"testing"
