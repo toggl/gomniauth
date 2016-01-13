@@ -1,10 +1,10 @@
 package facebook
 
 import (
+	"github.com/stretchr/objx"
 	"github.com/toggl/gomniauth"
 	"github.com/toggl/gomniauth/common"
 	"github.com/toggl/gomniauth/oauth2"
-	"github.com/stretchr/objx"
 	"net/http"
 )
 
@@ -85,6 +85,10 @@ func (provider *FacebookProvider) GetBeginAuthURL(state *common.State, options o
 // response as a data map.
 func (provider *FacebookProvider) Get(creds *common.Credentials, endpoint string) (objx.Map, error) {
 	return oauth2.Get(provider, creds, endpoint)
+}
+
+func (provider *FacebookProvider) GetAnything(creds *common.Credentials, endpoint string) (interface{}, error) {
+	return oauth2.GetAnything(provider, creds, endpoint)
 }
 
 // GetUser uses the specified common.Credentials to access the users profile
